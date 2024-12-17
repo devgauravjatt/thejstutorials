@@ -93,7 +93,8 @@ const EditPost = ({ editPost, postId }: EditPostProps) => {
   const editPostText = editPost?.text ?? SITE?.editPost?.text ?? "Edit";
 
   return (
-    showEditPost && (
+    showEditPost &&
+    SITE.editPostIs && (
       <>
         <span aria-hidden="true"> | </span>
         <a

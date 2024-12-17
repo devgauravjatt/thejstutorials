@@ -5,7 +5,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
+    "preview": "astro build && astro preview",
     "sync": "astro sync",
     "astro": "astro",
     "format:check": "prettier --check . --plugin=prettier-plugin-astro",

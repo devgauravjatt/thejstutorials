@@ -12,6 +12,7 @@ export type Site = {
   postPerPage: number;
   scheduledPostMargin: number;
   showArchives?: boolean;
+  editPostIs?: boolean;
   editPost?: {
     url?: URL["href"];
     text?: string;

@@ -1,0 +1,41 @@
+---
+import AboutLayout from "@layouts/AboutLayout.astro";
+import socialIcons from "@assets/socialIcons";
+---
+
+<AboutLayout title="about me">
+	<div class="rounded-full border-2 border-skin-accent">
+		<img
+			src="https://avatars.githubusercontent.com/u/134186834?v=4"
+			class="mx-auto sm:w-1/2"
+			alt="coding dev illustration"
+		/>
+	</div>
+	<div class="flex flex-col items-center gap-3 pt-8">
+		<h2 class="m-0">👋 Hi, I'm Gaurav</h2>
+		<p>
+			I'm a <span class="font-semibold">Full Stack Developer</span> based in India.
+		</p>
+		<p class="m-0">
+			😂 No need for another introduction javascript is All Rounder.
+		</p>
+		<a
+			target="_blank"
+			class="my flex items-center justify-center gap-2 rounded-md bg-skin-accent px-3 py-1 text-white"
+			href="https://x.com/DevGauravJatt"
+			><Fragment set:html={socialIcons["X"]} />
+			<p>Hire Me</p>
+		</a>
+	</div>
+</AboutLayout>
+
+<style>
+	.my {
+		p {
+			color: white;
+		}
+		svg {
+			color: rgb(44, 44, 44);
+		}
+	}
+</style>

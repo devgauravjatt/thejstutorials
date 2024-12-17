@@ -13,11 +13,12 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
 
   const headerProps = {
     style: { viewTransitionName: slugifyStr(title) },
-    className: "text-lg font-medium decoration-dashed hover:underline",
+    className:
+      "sm:text-2xl text-lg font-medium decoration-dashed hover:underline",
   };
 
   return (
-    <li className="my-6">
+    <li className="my-6 border-skin-accent p-4 hover:border-2">
       <a
         href={href}
         className="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"
