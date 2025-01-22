@@ -4,7 +4,7 @@ pubDatetime: 2024-12-17T18:21:00Z
 modDatetime: 2024-12-17T18:21:00Z
 title: State Management in Svelte.js - A Reactive Approach
 slug: state-management-in-sveltejs-a-reactive-approach
-featured: true
+featured: false
 draft: false
 tags:
   - svelte

@@ -4,7 +4,7 @@ author: Dev Gaurav Jatt
 pubDatetime: 2025-01-04T07:43:26Z
 modDatetime: 2025-01-04T07:43:26Z
 slug: how-to-install-bun-on-windows-multiple-ways
-featured: true
+featured: false
 draft: false
 tags:
   - windows
